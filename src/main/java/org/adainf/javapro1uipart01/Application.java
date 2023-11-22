@@ -12,7 +12,7 @@ public class Application extends javafx.application.Application {
         mainStage = stage;
         mainStage.setWidth(applicationSize[0]);
         mainStage.setHeight(applicationSize[1]);
-        mainStage.setResizable(false);
+        mainStage.setResizable(true);
         mainStage.setTitle("Ad Cinema");
 
         mainStage.setScene(new HomeScreen().getHomeScene());
